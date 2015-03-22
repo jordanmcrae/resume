@@ -1,0 +1,217 @@
+@media all and (max-width: 930px) {
+    #icons_top { display: none; }
+}
+@media all and (max-width: 645px) {
+    #icon { display: none; }
+}
+@media all and (max-width: 750px) {
+    #upperbartext { display: none; }
+}
+body {
+	background-color: #ebeff4;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+}
+
+h2 {
+	font-family: helvetica;
+	color: #3b5998;
+}
+
+* {
+  -webkit-user-select: none;
+}
+
+*:active,
+*:hover {
+  cursor: default;
+}
+
+/* !!!!! TOP BAR !!!!! */
+
+.topbar {
+	z-index: 1;
+	position: fixed;
+	height: 42px;
+	width: 100%;
+	margin-top: 0px;
+	background-color: #ffffff;
+	background-image: linear-gradient(#4e69a2, #3b5998);
+	box-shadow: 0px 1px 1px 0px #000000;
+	min-height: 1px;
+	max-width: 100%;
+	width: auto\9;
+}
+
+#logo {
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	padding-top: 5px;
+	resize: both;
+	max-width: 100%;
+	width: auto\9;
+}
+
+#searchbar {
+	position: relative;
+	float: left;
+	padding-top: 6px;
+	margin-left: 5px;
+	max-width: 100%;
+	width: auto\9;
+}
+
+#icon {
+	float: left;
+	position: relative;
+	margin-left: 30px;
+	padding-top: 7px;
+	line-height: 0;
+	max-width: 100%;
+	width: auto\9;
+}
+
+#upperbartext {
+	float: left;
+	position: relative;
+	font-family: helvetica 10px;
+	font-size: 13px;
+	color:  #ffffff;
+	padding-left: 10px;
+	max-width: 100%;
+	width: auto\9;
+}
+
+#icons_top {
+	float: left;
+	position: relative;
+	padding-top: 9px;
+	margin-left: 30px;
+	max-width: 100%;
+	width: auto\9;
+}
+
+#topspacer {
+	height: 42px;
+	width: 100%;
+}
+
+/* !!!!! LEFT BODY !!!!! */
+
+.leftbar {
+	float: left;
+	position: relative;
+	max-width:20%;
+	min-width: 15%;
+	width: auto;
+	height: auto;
+	background-color: #E9EAED;
+	margin-right: 10px;
+}
+
+#profile {
+	float:left;
+	max-width: 50px;
+	max-height: 50px;
+	outline: solid 1px #000;
+	margin: 7px 7px;
+}
+
+.leftbar p {
+	font: 10px helvetica;
+}
+
+/* !!!!! CENTER BODY !!!!! */
+
+.down_arrow {
+	float: right;
+	max-width: 100%;
+	width: auto;
+}
+
+.centerbar {
+	float: left;
+	width: 493px;
+	max-width: 40%;
+	height: auto;
+	margin: 0.5% 0.1%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#status {
+	margin-bottom: 6px;
+}
+
+#skills {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+    display: inherit;
+    vertical-align: middle;
+}
+
+#jobs {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+    display: inherit;
+    vertical-align: middle;
+}
+
+#education {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inherit;
+    vertical-align: middle;
+}
+
+#interests {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inherit;
+    vertical-align: middle;
+}
+
+#references {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inherit;
+    vertical-align: middle;
+}
+
+
+/* !!!!! RIGHT BODY !!!!! */
+
+.rightbar {
+	position: relative;
+	float: left;
+	max-width:25%;
+	min-width: 15%;
+	height: 1000px;
+	background-color: #dfe3ee;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#objective {
+	width: 100%;
+	height: auto;
+}
+
+img {
+	max-width: 100%;
+}
